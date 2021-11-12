@@ -1,15 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Customtable from '../../../components/common/customTable';
 import { getStudents } from '../../../api/fakeapi';
-import {
-  Button,
-  FormControl,
-  Form,
-  Row,
-  Col,
-  ButtonGroup,
-  Badge,
-} from 'react-bootstrap';
+import { Button, FormControl, Form, Row, Col, Badge } from 'react-bootstrap';
 import './studentList.css';
 import AppModal from '../../../components/common/Modal/Modal';
 import AddStudentForm from '../../../components/student/AddStudentForm/AddStudentForm';
